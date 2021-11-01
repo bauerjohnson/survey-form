@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>survey-form Page</title>
+</head>
+<body>
+    <h1 id="title">ME</h1>
+    <p id="description">A survey where you tell us about yourself</p>
+     <form action="" id="survey-form">
+         <div class="input">
+         <label for="name" id="name-label">Name</label>
+         <input type="text" id="name" placeholder="name" required >
+         <br>
+         <label for="email" id="email-label">Email</label>
+         <input type="email" placeholder="Email" id="email" required>
+         <br>
+         <label for="number" id="number-label">badge no.</label>
+         <input type="number" id="number" min="1" max="50" placeholder="number" required>
+         <br>
+         <label for="age-range">age range</label>
+         <select id='dropdown' name="age range">
+            <option value="teen">14-19</option>
+            <option value="mid-age">20-27</option>
+            <option value="young">28-35</option>
+            <option value="young">36-40</option>
+        </select>
+        </div>
+        <br>
+
+        <div class="gender">
+        <p>Please select yor genda</p>
+  <input type="radio" id="html" name="fav_language" value="male">
+  <label for="male">male</label><br>
+  <input type="radio" id="css" name="fav_language" value="female">
+  <label for="female">female</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="cant">
+  <label for="cant">cant say</label>
+</div>
+      
+<br>
+<p>Transportation-type</p>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+
+<br>
+<label for="textarea">Tell us about yourself</label>       
+   <textarea></textarea>
+   <br> 
+   <button id="submit">submit</button>
+     </form>
+     <script type="type/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+     </script>
+</body>
+
+
+
+</html>
