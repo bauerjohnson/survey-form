@@ -64,6 +64,7 @@ body {
     box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.75);
     margin-bottom: 30px;
     margin: 0 30%;
+    text-align: center;
   }
 
   /* input[type=checkbox]:not(old) + label,
@@ -75,4 +76,13 @@ body {
 
   .genda{
       display: flex;
+  }
+
+
+  @media (max-width: 400px) {
+     #submit {
+         width: auto;
+         top: 0;
+         left: 0;
+     } 
   }
